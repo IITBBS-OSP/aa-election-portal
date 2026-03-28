@@ -64,7 +64,7 @@ export async function POST(req: Request) {
   const roleMap: Record<string, string> = {
     "secretary.aa@iitbbs.ac.in": "ADMIN",
     "president.aa@iitbbs.ac.in": "PRESIDENT",
-    "webadmin.aa@iitbbs.ac.in": "OBSERVER",
+    "observer.aa@iitbbs.ac.in": "OBSERVER",
   }
 
   // Decide role based on email
